@@ -88,3 +88,4 @@ Then open the URL shown by Vite.
 ## Author
 
 Shailesh Kumar
+CSE| Final | year | Open source contributer
