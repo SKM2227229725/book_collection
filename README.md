@@ -4,7 +4,7 @@ A simple Book Collection CRUD application built using React, Node.js, Express.js
 
 ## Features
 
-* Add a book ////
+* Add a book .
 * View all books
 * Update a book
 * Delete a book
@@ -12,20 +12,20 @@ A simple Book Collection CRUD application built using React, Node.js, Express.js
 
 ## Tech Stack
 
-### Frontend
+###  1. Frontend
 
 * React.js
 * Axios
 * Vite
 
-### Backend
+### 2. Backend
 
 * Node.js
 * Express.js
 * MongoDB
 * Mongoose
 
-## Book Fields
+##  3.Book Fields
 
 * Title
 * Author
