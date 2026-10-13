@@ -5,7 +5,6 @@ A simple Book Collection CRUD application built using React, Node.js, Express.js
 ## Features
 
 * Add a book .
-* View all books
 * Update a book
 * Delete a book
 * Store book data in MongoDB
