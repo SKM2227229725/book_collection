@@ -118,9 +118,6 @@ PORT=5000
 
 ---
 
-## 📸 Screenshots
-
-> _Add screenshots of your application here to make the README more attractive._
 
 ---
 
