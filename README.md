@@ -1,50 +1,62 @@
-📚 Book Collection
-A simple Book Collection CRUD application built using React, Node.js, Express.js, and MongoDB. This project allows users to add, update, view, and delete books with a clean and responsive interface.
+# 📚 Book Collection
 
-✨ Features
-➕ Add a new book
+A simple **Book Collection CRUD application** built using **React, Node.js, Express.js, and MongoDB**. This project allows users to add, update, view, and delete books with a clean and responsive interface.
 
-✏️ Update an existing book
+---
 
-🗑️ Delete a book
+## ✨ Features
 
-📖 View all books
+- ➕ Add a new book
+- ✏️ Update an existing book
+- 🗑️ Delete a book
+- 📖 View all books
+- 💾 Store book data in MongoDB
+- 🔄 Real-time updates using Axios
 
-💾 Store book data in MongoDB
+---
 
-🔄 Real-time updates using Axios
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-1. Frontend
-⚛️ React.js
+### 1. Frontend
 
-📡 Axios
+- ⚛️ React.js
+- 📡 Axios
+- ⚡ Vite
 
-⚡ Vite
+### 2. Backend
 
-2. Backend
-🟢 Node.js
+- 🟢 Node.js
+- 🚂 Express.js
+- 🍃 MongoDB
+- 📦 Mongoose
 
-🚂 Express.js
+---
 
-🍃 MongoDB
+## 📋 Book Fields
 
-📦 Mongoose
+| Field   | Description          |
+| ------- | -------------------- |
+| Title   | Title of the book    |
+| Author  | Author of the book   |
+| Content | Content/description  |
+| Year    | Publication year     |
 
-📋 Book Fields
-Field	Description
-Title	Title of the book
-Author	Author of the book
-Content	Content/description
-Year	Publication year
-🔗 API Endpoints
-Method	Endpoint	Description
-POST	/api/books	Add a book
-GET	/api/books	Get all books
-PUT	/api/books/:id	Update a book
-DELETE	/api/books/:id	Delete a book
-📁 Project Structure
-text
+---
+
+## 🔗 API Endpoints
+
+| Method | Endpoint         | Description   |
+| ------ | ---------------- | ------------- |
+| POST   | `/api/books`     | Add a book    |
+| GET    | `/api/books`     | Get all books |
+| PUT    | `/api/books/:id` | Update a book |
+| DELETE | `/api/books/:id` | Delete a book |
+
+---
+
+## 📁 Project Structure
+
+```text
 book
 ├── backend
 │   ├── models
@@ -61,44 +73,77 @@ book
     │   └── main.jsx
     ├── public
     └── package.json
-🚀 How to Run
-🔧 Backend Setup
-bash
+```
+
+---
+
+## 🚀 How to Run
+
+### 🔧 Backend Setup
+
+```bash
 cd backend
 npm install
 node server.js
+```
+
 Backend runs on:
 
-text
+```text
 http://localhost:5000
-🎨 Frontend Setup
+```
+
+### 🎨 Frontend Setup
+
 Open another terminal:
 
-bash
+```bash
 cd frontend
 npm install
 npm run dev
-Then open the URL shown by Vite (usually http://localhost:5173).
+```
 
-⚙️ Environment Variables
-Create a .env file inside the backend folder and add:
+Then open the URL shown by **Vite** (usually `http://localhost:5173`).
 
-env
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env` file inside the `backend` folder and add:
+
+```env
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
-📸 Screenshots
-Add screenshots of your application here to make the README more attractive.
+```
 
-🤝 Contributing
+---
+
+## 📸 Screenshots
+
+> _Add screenshots of your application here to make the README more attractive._
+
+---
+
+## 🤝 Contributing
+
 Contributions are welcome! Feel free to fork this repository and submit a pull request.
 
-👨‍💻 Author
-Shailesh Kumar
-🎓 CSE | Final Year
+---
+
+## 👨‍💻 Author
+
+**Shailesh Kumar**  
+🎓 CSE | Final Year  
 🌱 Open Source Contributor
 
-⭐ Support
+---
+
+## ⭐ Support
+
 If you like this project, please give it a ⭐ on GitHub — it really helps!
 
-📝 License
-This project is licensed under the MIT License.
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**.
